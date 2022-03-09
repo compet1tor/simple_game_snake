@@ -1,2 +1,2 @@
-# first_HTML
+# simple game on PC
  
