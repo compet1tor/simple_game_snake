@@ -117,8 +117,8 @@
 			// paint apples
 			for( var a = 0; a < apples.length; a++ )
 			{
-				ctx.fillStyle = apples[a].color;
-				ctx.fillRect(apples[a].x, apples[a].y, aw, ah);
+				ctxfillStyle = apples[a].color;
+				ctxfillRect(apples[a].x, apples[a].y, aw, ah);
 			}
 
 			// check for snake head collisions with apples
